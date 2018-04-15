@@ -1,0 +1,10 @@
+.card__actions {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}

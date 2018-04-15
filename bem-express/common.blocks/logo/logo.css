@@ -1,0 +1,7 @@
+.logo {
+    width: 68.75%;
+    margin: 43px auto;
+}
+.logo > img {
+    max-width: 134px;
+}

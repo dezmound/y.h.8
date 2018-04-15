@@ -1,0 +1,10 @@
+.grid__card_size_m {
+    grid-column: span 3;
+}
+.grid__card_size_m > h2{
+    font-size: 1.7rem;
+}
+.grid__card_size_m > .card__description {
+    position: relative;
+    padding-right: 30px;
+}

@@ -1,6 +1,7 @@
 block('root')({
     replace: () => {
-        return Object.assign({}, applyNext(), {
+        const oldContext = applyNext();
+        return Object.assign({}, oldContext, {
             styles: [
                 {
                     elem: 'css',

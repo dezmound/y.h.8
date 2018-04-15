@@ -59,14 +59,21 @@ app.get('/ping/', function(req, res) {
 
 app.get('/', function(req, res) {
     res.locals.render(req, res, {
-        view: 'page-index',
-        title: 'Main page',
+        view: 'grid',
+        title: 'Яндекс Дзен',
+        gridData: require('../grid.data'),
+        logo: {
+            srcset: `img/zen_logo.png 45w,
+            img/zen_logo@2x.png 90w,
+            img/zen_logo@3x.png 134w`,
+            sizes: `(max-width: 319px) 45px,
+            (max-width: 988px) 90px,
+            134px`,
+            src: 'zen_logo@3x.png',
+            alt: 'Logo'
+        },
         meta: {
-            description: 'Page description',
-            og: {
-                url: 'https://site.com',
-                siteName: 'Site name'
-            }
+            description: 'Яндекс Дзен'
         }
     })
 });

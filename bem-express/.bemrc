@@ -4,6 +4,8 @@ module.exports = {
     levels: {
         'common.blocks': {},
         'desktop.bundles': {},
+        'desktop.blocks': {},
+        'mobile.bundles': {},
         'mobile.blocks': {}
     },
 

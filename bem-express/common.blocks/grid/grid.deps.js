@@ -1,0 +1,10 @@
+({
+    shouldDeps: [
+        {
+            elem: [
+                'card'
+            ]
+        },
+        'card'
+    ]
+})

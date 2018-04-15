@@ -1,0 +1,13 @@
+.card__actions-wrapper {
+    position: relative;
+}
+.card__actions-wrapper > .card__actions, .grid__card.size_m .card__actions {
+    right: 10px;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    flex-direction: column;
+}
+.card__actions-wrapper > .card__actions .like, .grid__card.size_m .card__actions .like {
+    margin: auto 0 0;
+}

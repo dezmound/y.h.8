@@ -1,0 +1,10 @@
+.like {
+    background: url("Heart.svg") center/cover;
+    width: 17px;
+    height: 16px;
+}
+.like:hover {
+    cursor: pointer;
+    filter: brightness(0.4);
+    -webkit-filter: brightness(0.4);
+}

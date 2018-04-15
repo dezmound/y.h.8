@@ -1,0 +1,15 @@
+@media screen and (max-width: 748px) {
+    .grid {
+        grid-auto-flow: dense;
+    }
+}
+@media screen and (max-width: 640px) {
+    .grid {
+        width: 87%;
+    }
+}
+@media screen and (max-width: 442px) {
+    .grid {
+        width: 98%;
+    }
+}

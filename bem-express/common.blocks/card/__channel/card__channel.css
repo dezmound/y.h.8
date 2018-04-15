@@ -1,0 +1,4 @@
+.card__channel + .card__more {
+    position: absolute;
+    right: 35px;
+}

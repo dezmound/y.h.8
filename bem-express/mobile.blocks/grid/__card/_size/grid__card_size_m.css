@@ -1,0 +1,12 @@
+@media screen and (max-width: 748px) {
+    .grid__card_size_m {
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+}
+@media screen and (max-width: 442px) {
+    .grid__card_size_m {
+        grid-column: span 6;
+        grid-row: span 2;
+    }
+}

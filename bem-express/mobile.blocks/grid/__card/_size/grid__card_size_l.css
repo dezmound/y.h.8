@@ -1,0 +1,30 @@
+@media screen and (max-width: 988px) {
+    .grid__card_size_l {
+        grid-template-areas:
+                'h h h'
+                'i i i'
+                'c c c';
+        grid-row-gap: 16px;
+    }
+    .grid__card_size_l .card__actions {
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        flex-direction: column;
+        border: 0 solid transparent;
+    }
+    .grid__card_size_l .card__description {
+        min-height: 25px;
+        padding-right: 20px;
+    }
+    .grid__card_size_l .card__actions .like {
+        margin-top: auto;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 442px) {
+    .grid__card_size_l {
+        grid-row: span 3;
+    }
+}

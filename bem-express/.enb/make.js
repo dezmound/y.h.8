@@ -27,7 +27,7 @@ const levels = [
     { path: 'node_modules/bem-components/desktop.blocks', check: false },
     { path: 'node_modules/bem-components/design/common.blocks', check: false },
     { path: 'node_modules/bem-components/design/desktop.blocks', check: false },
-    'common.blocks'
+    'common.blocks',
 ];
 
 const isProd = process.env.YENV === 'production';
@@ -36,11 +36,11 @@ let match = '*';
 
 switch(process.env.YENV_PLATFORM) {
     case 'mobile':
-        match = '!(desktop)';
+        match = 'mobile';
         levels.push('mobile.blocks');
         break;
     case 'desktop':
-        match = '!(mobile)';
+        match = 'desktop';
         levels.push('desktop.blocks');
         break;
     default:

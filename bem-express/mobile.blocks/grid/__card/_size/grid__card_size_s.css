@@ -1,0 +1,35 @@
+@media screen and (max-width: 988px) {
+    .grid__card_size_s .card__description .card__actions {
+        position: relative;
+        border: 0;
+    }
+}
+@media screen and (max-width: 748px) {
+    .grid__card_size_s {
+        grid-column: span 3;
+    }
+}
+@media screen and (max-width: 442px) {
+    .grid__card_size_s {
+        grid-column: span 6;
+    }
+    .grid__card_size_s .card__actions:not(.card__actons_bottom) {
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        flex-direction: column;
+    }
+    .grid__card_size_s .description {
+        min-height: 25px;
+        padding-right: 20px;
+        position: relative;
+    }
+    .grid__card_size_s .card__actions:not(.card__actons_bottom) .like {
+        margin-top: auto;
+        margin-left: 0;
+    }
+    .grid__card_size_s .card__actions-wrapper > .card__actions:not(.card__actons_bottom) {
+        right: 10px;
+    }
+}

@@ -1,13 +1,16 @@
 block('page')({
-    content: () => [
+    content: (node) => [
         {
-            block: 'header'
+            block: 'container',
+            content: [
+                {
+                    block: 'logo',
+                    logo: node.data.logo
+                },
+                {
+                    block: 'grid',
+                }
+            ]
         },
-        {
-            block: 'body'
-        },
-        {
-            block: 'footer'
-        }
     ]
 });

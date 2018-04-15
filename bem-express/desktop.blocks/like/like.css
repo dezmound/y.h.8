@@ -1,0 +1,5 @@
+@media screen and (min-width: 1600px) {
+    .like {
+        transform: scale(1.5);
+    }
+}

@@ -1,0 +1,27 @@
+.grid__card_size_l {
+    grid-column: span 6;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-column-gap: 16px;
+    grid-template-areas:
+            'i i h'
+            'i i c'
+            'i i c'
+            'i i c'
+            'i i c' /*  ¯\_(ツ)_/¯  */
+            'i i c'
+            'i i c'
+            'i i c'
+            'i i c'
+            'i i c';
+}
+.grid__card_size_l > img {
+    grid-area: i;
+}
+.grid__card_size_l > h2 {
+    grid-area: h;
+}
+.grid__card_size_l > .card__description {
+    grid-area: c;
+    position: relative;
+}

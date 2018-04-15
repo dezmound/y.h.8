@@ -29,7 +29,28 @@ block('root')({
                 { elem: 'meta', attrs: { property: 'og:site_name', content: og.siteName } },
                 { elem: 'meta', attrs: { property: 'og:locale', content: og.locale || 'en_US' } },
                 { elem: 'meta', attrs: { property: 'og:type', content: 'website' } },
-                { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } }
+                { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } },
+                {
+                    tag: 'style',
+                    content: `
+                        html {
+                            font-size: 10px;
+                            font-family: YSText-Regular, sans-serif;
+                        }
+                        body {
+                            font-feature-settings: "liga", "kern";
+                            box-sizing: border-box;
+                        }
+                        h2 {
+                            font-family: YSDisplay-Heavy, sans-serif;
+                            font-size: 1.9rem;
+                            margin: 0 0 1rem;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    `
+                }
             ],
             mods: {
                 view: data.view

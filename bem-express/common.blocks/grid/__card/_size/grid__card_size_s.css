@@ -1,0 +1,6 @@
+.grid__card_size_s {
+    grid-column: span 2;
+}
+.grid__card.size_s > h2 {
+    font-size: 1.7rem;
+}

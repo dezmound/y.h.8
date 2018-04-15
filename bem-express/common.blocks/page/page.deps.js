@@ -3,8 +3,8 @@
         {
             mods: { view: ['404'] }
         },
-        'header',
-        'body',
-        'footer'
+        'grid',
+        'logo',
+        'content'
     ]
 })
