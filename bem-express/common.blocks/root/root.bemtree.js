@@ -24,6 +24,7 @@ block('root')({
             ],
             head: [
                 { elem: 'meta', attrs: { name: 'description', content: meta.description } },
+                { tag: 'link', attrs: { rel: 'stylesheet', href: 'fonts/fonts.css' } },
                 { elem: 'meta', attrs: { property: 'og:title', content: og.title || data.title } },
                 { elem: 'meta', attrs: { property: 'og:url', content: og.url } },
                 { elem: 'meta', attrs: { property: 'og:site_name', content: og.siteName } },
