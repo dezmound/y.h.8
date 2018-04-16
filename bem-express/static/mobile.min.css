@@ -229,7 +229,7 @@
     .grid__card_size_s {
         grid-column: span 6;
     }
-    .grid__card_size_s .card__actions:not(.card__actons_bottom) {
+    .grid__card_size_s .card__actions:not(.card__actions_bottom) {
         right: 0;
         top: 0;
         height: 100%;
@@ -244,11 +244,11 @@
         padding-right: 20px;
         position: relative;
     }
-    .grid__card_size_s .card__actions:not(.card__actons_bottom) .like {
+    .grid__card_size_s .card__actions:not(.card__actions_bottom) .like {
         margin-top: auto;
         margin-left: 0;
     }
-    .grid__card_size_s .card__actions-wrapper > .card__actions:not(.card__actons_bottom) {
+    .grid__card_size_s .card__actions-wrapper > .card__actions:not(.card__actions_bottom) {
         right: 10px;
     }
 }
